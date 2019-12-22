@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="FrameworkDevlopement.E2Eframework.Basehomepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="navigateToURL"/>
+          <include name="homePageNavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- FrameworkDevlopement.E2Eframework.Basehomepage -->
+      <class name="FrameworkDevlopement.E2Eframework.validation">
+        <methods>
+          <include name="teardown"/>
+          <include name="geturl"/>
+          <include name="homePageNavigation"/>
+        </methods>
+      </class> <!-- FrameworkDevlopement.E2Eframework.validation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
